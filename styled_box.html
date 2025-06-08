@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Styled Box</title>
+  <style>
+    .styled-box {
+      background-color: #e0f7fa;         /* Light cyan background */
+      border: 3px solid #00796b;         /* Teal border */
+      margin: 40px auto;                 /* Margin around the box and center horizontally */
+      padding: 30px;                     /* Padding inside the box */
+      width: 300px;                      /* Fixed width */
+      text-align: center;                /* Centered text */
+      border-radius: 10px;               /* Rounded corners */
+      transition: background-color 0.3s; /* Smooth hover transition */
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2); /* Soft shadow for elevation */
+    }
+
+    .styled-box:hover {
+      background-color: #b2dfdb; /* Slightly darker shade on hover */
+    }
+  </style>
+</head>
+<body>
+
+  <div class="styled-box">
+    <h2>Hello, Beautiful Box!</h2>
+    <p>This is a styled div with margin, padding, border, and a hover effect.</p>
+  </div>
+
+</body>
+</html>
